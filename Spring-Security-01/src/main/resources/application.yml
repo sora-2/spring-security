@@ -1,0 +1,13 @@
+spring:
+
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/db2024?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true
+    username: root
+    password: fxy040215
+
+  security:
+    user:
+      name: root
+      password: fxy040215
+
