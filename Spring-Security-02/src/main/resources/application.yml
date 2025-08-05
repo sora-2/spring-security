@@ -1,0 +1,26 @@
+spring:
+
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/security?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true
+    username: root
+    password: fxy040215
+    type: com.alibaba.druid.pool.DruidDataSource
+
+  security:
+    user:
+      name: root
+      password: fxy040215
+      roles: admin
+
+  thymeleaf:
+    cache: false
+
+mybatis:
+  mapper-locations: classpath:com/sora/mapper/*.xml
+  type-aliases-package: com.sora.entity
+
+logging:
+  level:
+    com:
+      sora: debug
