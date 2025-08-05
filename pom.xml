@@ -11,6 +11,7 @@
     <modules>
         <module>Spring-Security-01</module>
         <module>Spring-Security-02</module>
+        <module>Spring-Security-03</module>
     </modules>
 
     <properties>

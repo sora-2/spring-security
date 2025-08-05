@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- namespace等于mapper接口类的全限定名,这样实现对应 -->
+<mapper namespace="com.sora.mapper.UserMapper">
+
+
+    <select id="loadUserByUsername" resultType="com.sora.entity.User">
+        select * from user where username = #{username}
+    </select>
+    <select id="getRolesById" resultType="com.sora.entity.Role">
+        select r.id ,r.name ,r.name_zh nameZh
+            from role r ,user_role ur
+        where r.id = ur.rid and ur.uid = #{id}
+    </select>
+</mapper>
