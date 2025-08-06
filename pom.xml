@@ -12,6 +12,7 @@
         <module>Spring-Security-01</module>
         <module>Spring-Security-02</module>
         <module>Spring-Security-03</module>
+        <module>Spring-Security-04</module>
     </modules>
 
     <properties>
@@ -88,6 +89,11 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-thymeleaf</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.github.penggle</groupId>
+            <artifactId>kaptcha</artifactId>
+            <version>2.3.2</version>
         </dependency>
     </dependencies>
 </project>
