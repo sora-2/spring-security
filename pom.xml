@@ -13,6 +13,7 @@
         <module>Spring-Security-02</module>
         <module>Spring-Security-03</module>
         <module>Spring-Security-04</module>
+        <module>Spring-Security-05</module>
     </modules>
 
     <properties>
