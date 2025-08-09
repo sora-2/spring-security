@@ -17,6 +17,7 @@
         <module>Spring-Security-06</module>
         <module>Spring-Security-07</module>
         <module>Spring-Security-08</module>
+        <module>Spring-Security-09</module>
     </modules>
 
     <properties>
